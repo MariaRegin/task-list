@@ -1,0 +1,47 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: rgb(59, 60, 59);
+}
+
+button {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(95, 126, 95);
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.clear-button__list:disabled {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+.checked {
+  color: grey;
+}
+
+.input__list {
+  width: 500px;
+  height: 30px;
+}
+
+.tasks__list {
+  list-style-type: none;
+}
+
+p {
+  color: grey;
+}

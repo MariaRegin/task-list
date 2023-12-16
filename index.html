@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>To-do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title__list">To-do list</h1>
+      <h2>Add task</h2>
+      <input
+        class="input__list"
+        id="input"
+        type="text"
+        placeholder="What do you want to do?"
+      />
+      <button id="button" class="button__list">Add to list</button>
+      <div>
+        <h2>My list</h2>
+        <p id="empty">Nothing here yet</p>
+        <ul class="tasks__list" id="tasks">
+          <li></li>
+        </ul>
+        <button class="clear-button__list" id="clear" disabled>
+          Clear list
+        </button>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
